@@ -93,17 +93,24 @@ public:
 
 
 
-void createControls(ControlFactory& factory)
+class Client
 {
-  Button button = factory.CreateButton();
-  ScrollBar scrollBar = factory.CreateScrollBar();
-}
+public:
+  void createControls(ControlFactory& factory)
+  {
+    Button button = factory.CreateButton();
+    ScrollBar scrollBar = factory.CreateScrollBar();
+  }
+};
+
+
 
 int main()
 {
   ControlFactory* factory = new LinuxControlFactory();
+  Client client;
   
-  createControls(*factory);
+  client.createControls(*factory);
   
   delete factory;
 }
