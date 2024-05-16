@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Структурные", "�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Поведенческие", "Поведенческие", "{D0CB7731-C5C2-4052-AB8A-1DA1A628EB63}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adapter", "Adapter\Adapter.vcxproj", "{525E4F7E-B0DD-43A7-87CE-48D362A78AEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -67,6 +69,14 @@ Global
 		{7C106378-EF73-4945-A66E-92766A45A3E0}.Release|x64.Build.0 = Release|x64
 		{7C106378-EF73-4945-A66E-92766A45A3E0}.Release|x86.ActiveCfg = Release|Win32
 		{7C106378-EF73-4945-A66E-92766A45A3E0}.Release|x86.Build.0 = Release|Win32
+		{525E4F7E-B0DD-43A7-87CE-48D362A78AEF}.Debug|x64.ActiveCfg = Debug|x64
+		{525E4F7E-B0DD-43A7-87CE-48D362A78AEF}.Debug|x64.Build.0 = Debug|x64
+		{525E4F7E-B0DD-43A7-87CE-48D362A78AEF}.Debug|x86.ActiveCfg = Debug|Win32
+		{525E4F7E-B0DD-43A7-87CE-48D362A78AEF}.Debug|x86.Build.0 = Debug|Win32
+		{525E4F7E-B0DD-43A7-87CE-48D362A78AEF}.Release|x64.ActiveCfg = Release|x64
+		{525E4F7E-B0DD-43A7-87CE-48D362A78AEF}.Release|x64.Build.0 = Release|x64
+		{525E4F7E-B0DD-43A7-87CE-48D362A78AEF}.Release|x86.ActiveCfg = Release|Win32
+		{525E4F7E-B0DD-43A7-87CE-48D362A78AEF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -77,6 +87,7 @@ Global
 		{F9E98DF4-9B1B-4608-96DC-EFBF7C6AC739} = {B6369145-2D80-4B23-9A0D-D487D867E857}
 		{FE1A8944-7D00-4C21-8D3F-3E2ED5455490} = {B6369145-2D80-4B23-9A0D-D487D867E857}
 		{7C106378-EF73-4945-A66E-92766A45A3E0} = {B6369145-2D80-4B23-9A0D-D487D867E857}
+		{525E4F7E-B0DD-43A7-87CE-48D362A78AEF} = {391679D8-3006-4DE9-8047-C3D658F119DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA7209EE-5ABA-4DEF-A8C0-400757F79EBF}
