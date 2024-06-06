@@ -19,13 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Composite.cpp" />
+    <ClCompile Include="ChainOfResponsibility.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{523c8498-86db-4d64-a532-fbe84c6743a8}</ProjectGuid>
-    <RootNamespace>Composite</RootNamespace>
+    <ProjectGuid>{76b7eccb-51ae-4b03-b200-91aceff65884}</ProjectGuid>
+    <RootNamespace>ChainOfResponsibility</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
