@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Iterator", "Iterator\Iterat
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mediator", "Mediator\Mediator.vcxproj", "{64384E78-D3FC-49F4-B3CD-C0C53BF6AD27}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Memento", "Memento\Memento.vcxproj", "{2D958A8B-48A3-4A0A-9235-AEE3E9D728DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -177,6 +179,14 @@ Global
 		{64384E78-D3FC-49F4-B3CD-C0C53BF6AD27}.Release|x64.Build.0 = Release|x64
 		{64384E78-D3FC-49F4-B3CD-C0C53BF6AD27}.Release|x86.ActiveCfg = Release|Win32
 		{64384E78-D3FC-49F4-B3CD-C0C53BF6AD27}.Release|x86.Build.0 = Release|Win32
+		{2D958A8B-48A3-4A0A-9235-AEE3E9D728DE}.Debug|x64.ActiveCfg = Debug|x64
+		{2D958A8B-48A3-4A0A-9235-AEE3E9D728DE}.Debug|x64.Build.0 = Debug|x64
+		{2D958A8B-48A3-4A0A-9235-AEE3E9D728DE}.Debug|x86.ActiveCfg = Debug|Win32
+		{2D958A8B-48A3-4A0A-9235-AEE3E9D728DE}.Debug|x86.Build.0 = Debug|Win32
+		{2D958A8B-48A3-4A0A-9235-AEE3E9D728DE}.Release|x64.ActiveCfg = Release|x64
+		{2D958A8B-48A3-4A0A-9235-AEE3E9D728DE}.Release|x64.Build.0 = Release|x64
+		{2D958A8B-48A3-4A0A-9235-AEE3E9D728DE}.Release|x86.ActiveCfg = Release|Win32
+		{2D958A8B-48A3-4A0A-9235-AEE3E9D728DE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -198,6 +208,7 @@ Global
 		{BDF25E35-8930-441F-9ECC-DC9A880BBD33} = {D0CB7731-C5C2-4052-AB8A-1DA1A628EB63}
 		{293527A0-85ED-4F79-A79E-3CFFD87A0DF3} = {D0CB7731-C5C2-4052-AB8A-1DA1A628EB63}
 		{64384E78-D3FC-49F4-B3CD-C0C53BF6AD27} = {D0CB7731-C5C2-4052-AB8A-1DA1A628EB63}
+		{2D958A8B-48A3-4A0A-9235-AEE3E9D728DE} = {D0CB7731-C5C2-4052-AB8A-1DA1A628EB63}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA7209EE-5ABA-4DEF-A8C0-400757F79EBF}
