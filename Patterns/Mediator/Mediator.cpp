@@ -73,8 +73,8 @@ public:
 
 class DialogDirector : public Director
 {
-  ListBox* listBox;
-  TextBox* textBox;
+  ListBox* listBox = nullptr;
+  TextBox* textBox = nullptr;
 
   int count = 0;
 public:
